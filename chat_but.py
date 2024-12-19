@@ -3,7 +3,7 @@ import pyautogui as pg
 # https://pyautogui.readthedocs.io/en/latest/
 from time import sleep
 from random import choice
-lst=["would you like to talk to me?","how are you?","123","good day","I wish you happiness"]
+lst=["would you like to talk to me?","how are you?","good day","I wish you happiness"]
 pg.click(530, 999)
 pg.write("slam i,m robot \n", interval=0.1)
 for i in range(5):
