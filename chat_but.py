@@ -10,5 +10,6 @@ for i in range(5):
     sleep(0.1)
     pg.click(530, 999)
     pg.write(choice(lst), interval=0.1)
-    pg.press('enter')
-pg.hotkey('ctrl','enter')
+    pg.hotkey('ctrl','enter')
+    # input("??")
+
