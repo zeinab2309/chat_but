@@ -5,7 +5,11 @@ from datetime import datetime
 from time import sleep
 from random import choice
 today = datetime.now().strftime("%Y-%m-%d")
-lst=[f"would you like to talk to me?","how are you?",f"today is :{today}","good day","Do you have a question to ask me?","I wish you happiness"]
+lst=[f"would you like to talk to me?",
+     "how are you?",
+     f"today is :{today}","good day",
+     "Do you have a question to ask me?",
+     "I wish you happiness"]
 pg.click(530, 999)
 pg.write("hello i,m robot \nwhat,s your name? (enter your name in english )\n", interval=0.02)
 pg.hotkey('ctrl','enter')
